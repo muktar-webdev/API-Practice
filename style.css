@@ -1,0 +1,29 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 10px;
+}
+
+.country{
+    border: 1px solid black;
+    width: 380px;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    background:#d6afaf;
+    /* color: whitesmoke; */
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    /* margin: 0 auto; */
+}
+.country-name{
+    color: indianred;
+}
+
+.country-capital{
+    color: #350b53;
+}
+
+#country-details{
+    margin: 0 auto;
+}
