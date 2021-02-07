@@ -70,6 +70,7 @@ const randomCountryInfo = country => {
     <p>${country.capital} </p>
     <p>Population : ${country.population} </p>
     <p>Area :${country.area} </p>
+    <img src = "${country.flag}">
 
     `
 }

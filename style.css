@@ -27,3 +27,6 @@
 #country-details{
     margin: 0 auto;
 }
+#country-details img{
+    width: 300px;
+}
